@@ -1,4 +1,7 @@
 import logging
+logging.basicConfig(level=logging.DEBUG)
+
+import logging
 from telegram import (
     Update, InlineKeyboardButton, InlineKeyboardMarkup
 )
